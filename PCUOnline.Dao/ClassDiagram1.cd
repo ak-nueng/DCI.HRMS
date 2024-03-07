@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PCUOnline.Dao.DaoApp">
+    <Position X="10.25" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <FileName>DaoApp.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoBase">
+    <Position X="9" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>DaoBase.cs</FileName>
+      <HashCode>AACgAAAAAIAAAAAAAACAAAAACAAAAQAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoConfig">
+    <Position X="10.25" Y="6" Width="3" />
+    <TypeIdentifier>
+      <FileName>DaoConfig.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoFactoryBase">
+    <Position X="13.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DaoFactoryBase.cs</FileName>
+      <HashCode>AAAAAAAAIABAAAAAAACAACAAAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoManager">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>DaoManager.cs</FileName>
+      <HashCode>AACAAAAAAABAEAACAAAAACAAAAAAAAAIAAAAAQAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoManagerBuilder">
+    <Position X="10.25" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <FileName>DaoManagerBuilder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoProperty">
+    <Position X="13.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <FileName>DaoProperty.cs</FileName>
+      <HashCode>AQAAAIEBAAAQAAgRAIQAAAAACAAAIAABASACAAAICAo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.DaoTransaction" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <FileName>DaoTransaction.cs</FileName>
+      <HashCode>BACAAEAAACAAIAECEAAAgAAAAAwBAAAEAAAAAACAAgA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PCUOnline.Dao.DaoTransaction.State">
+        <TypeIdentifier>
+          <NewMemberFileName>DaoTransaction.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCUOnline.Dao.Ora.OraDaoManager">
+    <Position X="5.5" Y="2" Width="3" />
+    <TypeIdentifier>
+      <FileName>Ora\OraDaoManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="PCUOnline.Dao.DaoManager" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.958" />
+        <Point X="4.125" Y="1.958" />
+        <Point X="4.125" Y="2.551" />
+        <Point X="5.5" Y="2.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="PCUOnline.Dao.Ora.OraHelper">
+    <Position X="0.5" Y="3.5" Width="5.25" />
+    <TypeIdentifier>
+      <FileName>Ora\OraHelper.cs</FileName>
+      <HashCode>gAAIAAAAAAAAACBAAAAEAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCUOnline.Dao.Sql.SqlDaoManager">
+    <Position X="5.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>Sql\SqlDaoManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="PCUOnline.Dao.DaoManager" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.958" />
+        <Point X="4.125" Y="1.958" />
+        <Point X="4.125" Y="1.051" />
+        <Point X="5.5" Y="1.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="PCUOnline.Dao.Sql.SqlHelper">
+    <Position X="0.5" Y="6.75" Width="5.25" />
+    <TypeIdentifier>
+      <FileName>Sql\SqlHelper.cs</FileName>
+      <HashCode>AAAIAAAAAAAAAABAAAAEAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

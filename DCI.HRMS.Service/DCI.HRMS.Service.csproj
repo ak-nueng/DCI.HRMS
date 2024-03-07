@@ -1,0 +1,108 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6506676C-A172-475E-8A46-54BCA23F4941}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DCI.HRMS.Service</RootNamespace>
+    <AssemblyName>DCI.HRMS.Service</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DocumentationFile>
+    </DocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttendanceService.cs" />
+    <Compile Include="BusinessTripService.cs" />
+    <Compile Include="DictionaryService.cs" />
+    <Compile Include="DivisionService.cs" />
+    <Compile Include="EmployeeLeaveService.cs" />
+    <Compile Include="EmployeeService.cs" />
+    <Compile Include="EvaluationService.cs" />
+    <Compile Include="LawResponseService.cs" />
+    <Compile Include="MedicalAllowanceService.cs" />
+    <Compile Include="OtService.cs" />
+    <Compile Include="PenaltyService.cs" />
+    <Compile Include="PositionService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyBorrowService.cs" />
+    <Compile Include="SatisfyService.cs" />
+    <Compile Include="ServiceUtility.cs" />
+    <Compile Include="ShiftService.cs" />
+    <Compile Include="SkillAllowanceService.cs" />
+    <Compile Include="SubContract\SubContractBusinessTripService.cs" />
+    <Compile Include="SubContract\SubContractSkillAllowanceService.cs" />
+    <Compile Include="SubContract\SubContractLeaveService.cs" />
+    <Compile Include="SubContract\SubContractService.cs" />
+    <Compile Include="SubContract\SubContractOtService.cs" />
+    <Compile Include="SubContract\SubContractShiftService.cs" />
+    <Compile Include="SubContract\SubContractTimeCardService.cs" />
+    <Compile Include="TimeCardService.cs" />
+    <Compile Include="Trainee\TraineeTimeCardService.cs" />
+    <Compile Include="Trainee\TraineeLeaveService.cs" />
+    <Compile Include="Trainee\TraineeService.cs" />
+    <Compile Include="Trainee\TraineeOtService.cs" />
+    <Compile Include="Trainee\TraineeShiftService.cs" />
+    <Compile Include="WelfareService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DCI.HRMS.Model\DCI.HRMS.Model.csproj">
+      <Project>{924900BE-DC4F-4435-B868-03FAB0956D27}</Project>
+      <Name>DCI.HRMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DCI.HRMS.Persistence\DCI.HRMS.Persistence.csproj">
+      <Project>{9DAB15F1-181D-4F65-9153-E691A5D1E5C0}</Project>
+      <Name>DCI.HRMS.Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCUOnline.Dao\PCUOnline.Dao.csproj">
+      <Project>{6751A989-DCA8-4839-977C-53C55149AB17}</Project>
+      <Name>PCUOnline.Dao</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

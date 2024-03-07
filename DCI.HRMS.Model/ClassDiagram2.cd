@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DCI.HRMS.Model.Personal.EmployeeDataInfo">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Personal\EmployeeDataInfo.cs</FileName>
+      <HashCode>AAQJAzBAAQMwRBAAAEAQACBAAAAgAAAAIAQAAAAUAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.EmployeeInfo">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Personal\EmployeeInfo.cs</FileName>
+      <HashCode>gQIUAAkTEDAABACgAAQBMAAQARAEAIAICAAAAIABgAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.PersonInfo">
+    <Position X="1.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>Personal\PersonInfo.cs</FileName>
+      <HashCode>hAAggAQAAAAAMgSAJACggEZA4ERCACIEABAgABgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

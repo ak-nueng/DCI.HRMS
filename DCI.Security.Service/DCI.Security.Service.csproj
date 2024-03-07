@@ -1,0 +1,84 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A95B10C6-902C-438C-9BF0-577DFC603A94}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DCI.Security.Service</RootNamespace>
+    <AssemblyName>DCI.Security.Service</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DCIFacade.cs" />
+    <Compile Include="UserAccountManager.cs" />
+    <Compile Include="UserAccountService.cs" />
+    <Compile Include="UserGroupService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DCIBizPro.Util\DCIBizPro.Util.csproj">
+      <Project>{C17E4DEC-FF69-4562-BF5F-D5D951648340}</Project>
+      <Name>DCIBizPro.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCUOnline.Cryptography\PCUOnline.Cryptography\PCUOnline.Cryptography.csproj">
+      <Project>{3BBA5E25-B0DE-4FE1-B2F1-712F5F51F9AF}</Project>
+      <Name>PCUOnline.Cryptography</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PCUOnline.Dao\PCUOnline.Dao.csproj">
+      <Project>{6751A989-DCA8-4839-977C-53C55149AB17}</Project>
+      <Name>PCUOnline.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DCI.Security.Model\DCI.Security.Model.csproj">
+      <Project>{021185AD-246F-484A-8E24-81284351AE18}</Project>
+      <Name>DCI.Security.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DCI.Security.Persistence\DCI.Security.Persistence.csproj">
+      <Project>{2A67853A-8FDA-4F0C-8AD2-4346C4A3F240}</Project>
+      <Name>DCI.Security.Persistence</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

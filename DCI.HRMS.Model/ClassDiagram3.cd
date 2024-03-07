@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DCI.HRMS.Model.AddressInfo">
+    <Position X="17.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAAAEAAAAAAAAAAIBAACCAIABAgCAAAA=</HashCode>
+      <FileName>AddressInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.BasicInfo">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAgAAADAAAgAAQAIAAEAAASAAAAABAAAAE=</HashCode>
+      <FileName>BasicInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.HospitalInfo">
+    <Position X="17.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAABAAoCAAAIAAAABAAAAAAAAAIAAA=</HashCode>
+      <FileName>HospitalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.RunningNumber">
+    <Position X="22.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAQgAACAEAQEAIQAgAAaAAgKQAQBAgCAAABABQA=</HashCode>
+      <FileName>RunningNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Allowance.SkillAllowanceInfo">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAACQAAACgkAAAAJAAAAAAAAAABAAAACQAAIAgQA=</HashCode>
+      <FileName>Allowance\SkillAllowanceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.EmployeeAbsentAlertInfo">
+    <Position X="6.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAIAAAACAEAAQAAAACAAAKQiBACgAgA=</HashCode>
+      <FileName>Attendance\EmployeeAbsentAlertInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.EmployeeLealeRequestInfo">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkBAAgdIAgoFAgYIgAgAAAAISAAAAAAAAAgAAAAABAA=</HashCode>
+      <FileName>Attendance\EmployeeLealeRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.EmployeeLeaveInfo">
+    <Position X="4" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAACCAACAggAAgAAAAAAAAAAAAAAABIgA=</HashCode>
+      <FileName>Attendance\EmployeeLeaveInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.EmployeeShiftInfo">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAEACAABAggAgAIAAAAASCAAAAAgBAAAAAAABAA=</HashCode>
+      <FileName>Attendance\EmployeeShiftInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.LeaveTotal">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAQAAAAIAAAAAAAAAAAQAAAQAAAAQAAAAAAAQA=</HashCode>
+      <FileName>Attendance\LeaveTotalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.AnnualTotal">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAAABAAAAABAAAAAYAAAACAEQAAABEAiAAAAAAg=</HashCode>
+      <FileName>Attendance\LeaveTotalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.ManpowerInfo">
+    <Position X="11.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAgAABAIAAAAAAAAgAgAAAAAAYAAAA=</HashCode>
+      <FileName>Attendance\ManpowerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.MonthShiftInfo">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAEAAAIBAAAAgAAAgAAASCAAAAAgAAAAAAAABAA=</HashCode>
+      <FileName>Attendance\MonthShiftInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.OtBusSumaryInfo">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAACABAAAgAJAAAAAQAAAEAQAAAIEAAAAAAAAA=</HashCode>
+      <FileName>Attendance\OtBusSumaryInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.OtBusWayInfo">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAACABAAAgAIAAkAAQAJAAkQAAAIEAAAAAAAgA=</HashCode>
+      <FileName>Attendance\OtBusWayInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.OtRateInfo">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAEEACAhBAAgIgAABAAAASQABQAAAAUAICAAACAg=</HashCode>
+      <FileName>Attendance\OtRateInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.OtRequestInfo">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQBAAsEAAChBQgQoiAAAAAQISAAFQEIAEUACCBAARAo=</HashCode>
+      <FileName>Attendance\OtRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.PenaltyInfo">
+    <Position X="15" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAiAAAAIgAAAAAAABAAAAAQAAAgEAAAI=</HashCode>
+      <FileName>Attendance\PenaltyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.ShiftType">
+    <Position X="15" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAABAAAEAQAAAAAAEAAAEBAAABAAAAAAIAAQA=</HashCode>
+      <FileName>Attendance\ShiftType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.TimeCardInfo">
+    <Position X="24.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAQAEAAEABAIAAAACAAAAAAA=</HashCode>
+      <FileName>Attendance\TimeCardInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Attendance.TimeCardManualInfo">
+    <Position X="24.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABQAAEAgAABAgAAgAIAAAAESAAABAAAAAAAAAQAEAA=</HashCode>
+      <FileName>Attendance\TimeCardManualInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.DefaultValue">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBAEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\DefaultValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.MessageAlert">
+    <Position X="20.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARCEAEAAAAAAAAAkAAAAAAACACkAkAAAAACCACAA=</HashCode>
+      <FileName>Common\MessageAlert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.ObjectInfo">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAgAAAAAAAQAAAAAiSAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ObjectInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.ObjectValue">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Common\ObjectValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.ObjectValueCollection">
+    <Position X="9.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Common\ObjectValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Common.RunningNumber">
+    <Position X="24" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAQgAACAUAQEAMQAgAAaAAgKQAQBAgCAAAAABQA=</HashCode>
+      <FileName>Common\RunningNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Organize.DivisionInfo">
+    <Position X="11.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAAACAAEQIggCAwAIAAFAIACAQCAAAgAAAA=</HashCode>
+      <FileName>Organize\DivisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Organize.PositionInfo">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAABAAoCAAAIAAAARAAAAEAAAAIAAA=</HashCode>
+      <FileName>Organize\PositionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.EducationInfo">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAgAIAAAAAAQAAAAAQAAQAAAAEAAAAABAAEIAIAA=</HashCode>
+      <FileName>Personal\EducationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.EmployeeDataInfo">
+    <Position X="9" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAyBAAQMgRBAAAFAQACBQAAAgQAAAIAQAAAAUAAg=</HashCode>
+      <FileName>Personal\EmployeeDataInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.EmployeeInfo">
+    <Position X="1.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSIUIAkTEDAABACgAASBMEAQgRAEBYAICQEAAIABgCI=</HashCode>
+      <FileName>Personal\EmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.FamilyInfo">
+    <Position X="15" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAABAEwAAAAIACAAAAEhAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Personal\FamilyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.NameInfo">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAEAEAAAEAAQABAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personal\NameInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.PersonInfo">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hABggAUAAAABMgSApACogEZA6ERCACIEABAgABgAAAA=</HashCode>
+      <FileName>Personal\PersonInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.PropertyBorrowInfo">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAAAAggAAAgIAAAAEQAABAJEAEQAagAgASQA=</HashCode>
+      <FileName>Personal\PropertyBorrowInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.ProvidenceInfo">
+    <Position X="17.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAACAAAAAAQAgAAAACAAAAAAEAAAAAAAEA=</HashCode>
+      <FileName>Personal\ProvidenceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Personal.WorkHistoryInfo">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwCAAAYAAAgAgAIAAAAEAAEoAAACCBQACAAAAAAA=</HashCode>
+      <FileName>Personal\WorkHistoryInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Welfare.BusStopInfo">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAoCAAIIAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Welfare\BusStopInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Welfare.BusWayInfo">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFCAAAAQAAAAAABAAoCAAAIAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Welfare\BusWayInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCI.HRMS.Model.Welfare.MedicalAllowanceInfo">
+    <Position X="13.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gADAAAEAAAABAACAoAgAiQCMSAgAhIgAIAAAAYAAAAA=</HashCode>
+      <FileName>Welfare\MedicalAllowanceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DCI.HRMS.Model.DocumentStatus">
+    <Position X="25.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DocumentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DCI.HRMS.Model.Organize.DivisionType">
+    <Position X="7.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Organize\DivisionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DCI.HRMS.Model.Personal.ReturnSts">
+    <Position X="6" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personal\PropertyBorrowInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
