@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="FAR_DataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="FAR_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Employee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EPH_EMP_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="PREN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="SURN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="TPREN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="TNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="TSURN" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="JOIN" msprop:OraDbType="106" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IDNO" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="POSI_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="POSI_ENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_ENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="SECT_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="SECT_ENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="GRP_CD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="GRP_ENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_ACC_IN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_SICK_IN" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_ACC_OUT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_SICK_OUT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

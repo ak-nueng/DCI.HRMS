@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--   Database application and configured property settings go here.-->
+<dataConfiguration>
+  <application id="HRMS" 
+          daoManager="PCUOnline.Dao , PCUOnline.Dao.Ora.OraDaoManager" 
+          daoFactory="DCI.HRMS.Persistence , DCI.HRMS.Persistence.Oracle.OraDaoFactory"  
+          connectionString="HR" />
+  <application id="TRAINEE" 
+          daoManager="PCUOnline.Dao , PCUOnline.Dao.Ora.OraDaoManager" 
+          daoFactory="DCI.HRMS.Persistence , DCI.HRMS.Persistence.Oracle.OraTraineeDaoFactory"  
+          connectionString="HRDEV" />
+  <application id="SUBCONTRACT"
+        daoManager="PCUOnline.Dao , PCUOnline.Dao.Ora.OraDaoManager"
+        daoFactory="DCI.HRMS.Persistence , DCI.HRMS.Persistence.Oracle.OraSubContractDaoFactory"
+        connectionString="HRSUB" />
+  
+  <application id="SYSDCI" 
+          daoManager="PCUOnline.Dao ,PCUOnline.Dao.Ora.OraDaoManager" 
+          daoFactory="DCI.Security.Persistence ,DCI.Security.Persistence.Ora.OracleDaoFactory"  
+          connectionString="HR" />
+  <connectionString>
+
+	<instance name="HR" type="Ora"
+			value="H9h7CCC7CVeikntPXjuv7s0z+Cuj+Y5y+U6rGzAO6qW+AcEAPmJajIyWGsNpAFqoDz9PsOjuKFtMnGsnf/5Fuc5u3DuhX6pi8g7kxyk3VR4P1RP6u/7UQ8TVBLQ7mwUUKVxSSvwZsPCHhEvtPNXQPeGfRjzN96hrMgf8TILzLALAcnOlGuTFzVcQjlfmF23brrlE3hLRIXOMadxBqqdKnA=="
+			publicKey="dci.daikin.co.jp" />
+
+	<instance name="HRSUB" type="Ora"
+          value="H9h7CCC7CVeikntPXjuv7s0z+Cuj+Y5y+U6rGzAO6qW+AcEAPmJajIyWGsNpAFqoDz9PsOjuKFtMnGsnf/5Fuc5u3DuhX6pi8g7kxyk3VR4P1RP6u/7UQ8TVBLQ7mwUUKVxSSvwZsPCHhEvtPNXQPeGfRjzN96hrMgf8TILzLAIQLWAwp+4295fdYczmCrMBcovX2P8DCQy26b9D4VNAsA=="
+          publicKey="dci.daikin.co.jp" />
+	  
+    <instance name="HRDEV" type="Ora" 
+              value="H9h7CCC7CVeikntPXjuv7s0z+Cuj+Y5y+U6rGzAO6qW+AcEAPmJajIyWGsNpAFqoDz9PsOjuKFtMnGsnf/5Fuc5u3DuhX6pi8g7kxyk3VR4P1RP6u/7UQ8TVBLQ7mwUUKVxSSvwZsPCHhEvtPNXQPeGfRjzN96hrMgf8TILzLALtOqP9HExs2y5UPRJ+QtfWR+3TwIg+Kjfv3WbiB+kfLOcfJ2gFOVjDFOpLQNK3dvA=" 
+              publicKey="dci.daikin.co.jp" />
+    
+    <instance name="SQL_DB_DCI" type="Sql" 
+              value="rIaWOrHt8Q7FL3gz6anB3Qg/QK11C0AmhLpG9H7eR92bKsprnfDOrciwm4xFEyAVBGFJGfjfoG2aHD0qW62q/4c78qS9/6qkD4ZYomAELIc7HTGwCpjVzGlJ3r2oBrGz" 
+              publicKey="dci.daikin.co.jp" />
+
+
+	  <!--<instance name="HRSUB" type="Ora"
+	  value="H5c3w0YXApt0uHoN59LfJenujVpc0+9O1JmaTKamH0+4LlxJ/4YyzhekNfzkddiylsP05xoQvljvabl1HPgnfQ=="
+	  publicKey="dci.daikin.co.jp" />
+	  <instance name="HRDEV" type="Ora"
+				value="VlnpJxRrMSobsMF9wJzoULghBKJH+eooRpboj4ZLELwAfMf9W8hXZ4FmNCLmdymgfL2+djVgLeeKToUFRskpcw=="
+				publicKey="dci.daikin.co.jp" />
+	  <instance name="HR" type="Ora"
+				value="N4pNZNbNe6seoOv/Ea2hF4VUyj6r39qeBbZr3L6m1Wti2jCOziY8EWJcLp6th09v"
+				publicKey="dci.daikin.co.jp" />
+	  <instance name="SQL_DB_DCI" type="Sql"
+				value="rIaWOrHt8Q7FL3gz6anB3Qg/QK11C0AmhLpG9H7eR92bKsprnfDOrciwm4xFEyAVBGFJGfjfoG2aHD0qW62q/4c78qS9/6qkD4ZYomAELIc7HTGwCpjVzGlJ3r2oBrGz"
+				publicKey="dci.daikin.co.jp" />-->
+
+    <!--
+    <instance name="HR_DEV" type="Ora"
+              value="rIaWOrHt8Q7FL3gz6anB3bun4xHP8Qb4l1VqdMk30Bd5BRw0YY/W1fv2Qlo9Cjn0nzTSGrBBY3zPyhkE7adIypgj8CbFw+zWoCnkz9xJJn8="
+              publicKey="dci.daikin.co.jp" />
+    <instance name="TRAINEE_DEV" type="Ora"
+              value="rIaWOrHt8Q7FL3gz6anB3bun4xHP8Qb4l1VqdMk30BdZk9GcZjyIK2ZBixzukr4kkMzVNxmxdJc1okYL81qU5cjIz4YgK1aJ4KqaD9/DgOH+ejqoccQN1+aHGXMvHT1f"
+              publicKey="dci.daikin.co.jp" />
+    <instance name="HRSUB_DEV" type="Ora"
+              value="rIaWOrHt8Q7FL3gz6anB3bun4xHP8Qb4l1VqdMk30Bd/MHNieFwQ/OgUG4dZgJigH76C2Of2WfA/Isl1GJSe49TDOBkFDLtCyOpELTxGdX4="
+              publicKey="dci.daikin.co.jp" />
+    -->
+	  
+    
+  </connectionString>
+  
+  <!--  
+        การกำหนด Type ของ Instance ให้กำหนดตามนี้
+        Sql = Sql Server
+        Ora = Oracle
+        MySql = MySql
+        DB2 = DB2
+        
+        ถ้าไม่ระบุ Type เข้าไป หรือ Type ไม่ถูกต้อง โปรแกรมจะเข้าใจว่าใช้ Database Sql Server
+    -->
+  <instance name="DCIGLOBAL" type="Sql" 
+            connectionString="rIaWOrHt8Q7FL3gz6anB3Qg/QK11C0AmhLpG9H7eR92bKsprnfDOrciwm4xFEyAVBGFJGfjfoG2aHD0qW62q/4c78qS9/6qkD4ZYomAELIc7HTGwCpjVzGlJ3r2oBrGz" 
+            publicKey="dci.daikin.co.jp"  />
+	
+	
+  <instance name="DCIGLOBAL_HR" type="Ora" 
+            connectionString="kt8T/JTUA60MSXsoa6SuWl8lroOpDiL6lQwqMtmbmdXmOsZtG0oQLWj5AyMJ78DeQ1FoBTzpJNGeBZIHlxty7xR04YH3qGjcsWHLDyoze9K+YuI3FGKO57kbb/GzSvrb" 
+            publicKey="dci.daikin.co.jp"  />
+	
+	
+  <instance name="DCI/PSN" 
+          daoManager="PCUOnline.Dao , PCUOnline.Dao.Oracle.OraDaoManager" 
+          daoFactory="DCI.HRD.Persistence , DCI.HRD.Persistence.Oracle.OraDaoFactory" 
+          connectionString="N4pNZNbNe6seoOv/Ea2hF4VUyj6r39qeBbZr3L6m1Wti2jCOziY8EWJcLp6th09v" 
+          publicKey="dci.daikin.co.jp"  />
+	
+	
+  <instance name="DCI/GA" 
+         daoManager="PCUOnline.Dao , PCUOnline.Dao.Sql.SqlDaoManager" 
+         daoFactory="DCI.GA.Persistence , DCI.GA.Persistence.Sql.SqlDaoFactory" 
+         connectionString="rIaWOrHt8Q7FL3gz6anB3Qg/QK11C0AmhLpG9H7eR92bKsprnfDOrciwm4xFEyAVBGFJGfjfoG2aHD0qW62q/4c78qS9/6qkD4ZYomAELIc7HTGwCpjVzGlJ3r2oBrGz" 
+         publicKey="dci.daikin.co.jp"  />
+	
+	
+</dataConfiguration>

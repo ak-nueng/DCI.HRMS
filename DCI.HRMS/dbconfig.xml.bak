@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--   Database application and configured property settings go here.-->
+<dataConfiguration>
+  <!--  
+        การกำหนด Type ของ Instance ให้กำหนดตามนี้
+        Sql = Sql Server
+        Ora = Oracle
+        MySql = MySql
+        DB2 = DB2
+        
+        ถ้าไม่ระบุ Type เข้าไป หรือ Type ไม่ถูกต้อง โปรแกรมจะเข้าใจว่าใช้ Database Sql Server
+    -->
+  <instance name="DCI_DEMO_HR" type="Ora" 
+            connectionString="VlnpJxRrMSobsMF9wJzoULghBKJH+eooRpboj4ZLELwAfMf9W8hXZ4FmNCLmdymg3Ujvc6lStOAuEwGcmxy0M6YAqgHo+rYHzLbC0wcr8Ax4Sa98HkiLZMW39FNHuiZY" 
+            publicKey="dci.daikin.co.jp" />
+  <instance name="DCI_DEMO" type="Sql" 
+            connectionString="rIaWOrHt8Q7FL3gz6anB3f4Lnt4CCiij8qhF9Hd5k5an2ZaTUBExlkdFe15uZTylUjmH5Wbne+kTYAt/4+SIqS8xJZ8X/4mB9DhRR95e4Cv501cU1WDidROJrvfX0vtO" 
+            publicKey="dci.daikin.co.jp" />
+  <instance name="DCI_PRD" type="Sql" 
+            connectionString="rIaWOrHt8Q7FL3gz6anB3f4Lnt4CCiij8qhF9Hd5k5amLyKGLQCnvlMSt+lgZ8iBrFcx3FIhUzX6gHWZAaiiFkSTzLuoQ0mmW18Btawv4ZrJeCKg+Miq+nV2o+Knk4U0Nuog9jEdhi/OPqzHejsE3g==" 
+            publicKey="dci.daikin.co.jp" />
+</dataConfiguration>
